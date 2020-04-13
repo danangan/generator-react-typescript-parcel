@@ -12,6 +12,6 @@
       "yosay": "^2.0.1"
   },
   "repository": "git@github.com:danangan/generator-react-typescript-parcel.git",
-  "author": "Danang Nur <danang.arbansa@personio.de>",
+  "author": "Danang Nur <danang.arbansa@gmail.com>",
   "license": "MIT"
 }
