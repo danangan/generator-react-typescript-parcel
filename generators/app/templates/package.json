@@ -1,0 +1,27 @@
+{
+    "scripts": {
+        "start": "./node_modules/.bin/parcel src/index.html",
+        "prettier": "prettier ./src/*",
+        "build": "parcel build src/index.html --public-url ./"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "yarn prettier"
+        }
+    },
+    "devDependencies": {
+        "husky": "^4.2.5",
+        "parcel": "^1.12.4",
+        "typescript": "3.6.3."
+    },
+    "dependencies": {
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 2,
+        "semi": false,
+        "singleQuote": true
+    }
+}

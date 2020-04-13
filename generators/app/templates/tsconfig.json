@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "scripthost",
+      "es2015.promise",
+      "esnext"
+    ]
+  }
+}
