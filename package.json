@@ -7,9 +7,7 @@
   ],
   "keywords": ["yeoman-generator"],
   "dependencies": {
-      "chalk": "^2.1.0",
-      "yeoman-generator": "^2.0.1",
-      "yosay": "^2.0.1"
+      "yeoman-generator": "^2.0.1"
   },
   "repository": "git@github.com:danangan/generator-react-typescript-parcel.git",
   "author": "Danang Nur <danang.arbansa@gmail.com>",

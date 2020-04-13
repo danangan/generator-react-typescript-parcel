@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import styles from './style.scss'
+import styles from './styles.module.scss'
 
 function App() {
   return <h1 className={styles.title}>Hello world!</h1>

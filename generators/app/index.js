@@ -29,4 +29,20 @@ module.exports = class extends Generator {
             this.destinationPath('',`${projectName}/src`),
         );
     }
+
+    install() {
+        this.destinationRoot(`${this.props.projectName}`);
+
+        this.spawnCommandSync('git', ['init', '--quiet']);
+
+        this.installDependencies({
+            npm: false,
+            bower: false,
+            yarn: true,
+        });
+    }
+
+    end() {
+        this.log('Let\'s roll! 🤟');
+    }
 };
