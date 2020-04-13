@@ -4,7 +4,7 @@ import App from './App';
 import styles from './style.scss'
 
 function App() {
-  <h1 className={styles.title}>Hello world!</h1>
+  return <h1 className={styles.title}>Hello world!</h1>
 }
 
 const container = document.getElementById('root');

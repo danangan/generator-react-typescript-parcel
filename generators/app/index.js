@@ -20,34 +20,13 @@ module.exports = class extends Generator {
         const { projectName } = this.props;
 
         this.fs.copy(
-            this.templatePath('src'),
+            this.templatePath('./*'),
             this.destinationPath('', projectName),
         );
 
-        const filesToCopy = [
-            {
-                source: 'package.json',
-                destination: 'package.json',
-            },
-            {
-                source: 'tsconfig.json',
-                destination: 'tsconfig.json',
-            },
-            {
-                source: '_editorconfig',
-                destination: '.editorconfzig',
-            },
-            {
-                source: '_gitignore',
-                destination: '.gitignore',
-            }
-            ];
-
-        filesToCopy.forEach(({destination, source}) => {
-            this.fs.copy(
-                this.templatePath(source),
-                this.destinationPath('', `${projectName}/${destination}`),
-            );
-        });
+        this.fs.copy(
+            this.templatePath('./src'),
+            this.destinationPath('',`${projectName}/src`),
+        );
     }
 };

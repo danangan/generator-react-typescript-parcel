@@ -12,7 +12,7 @@
     "devDependencies": {
         "husky": "^4.2.5",
         "parcel": "^1.12.4",
-        "typescript": "3.6.3."
+        "typescript": "3.6.3"
     },
     "dependencies": {
         "react": "^16.13.1",
