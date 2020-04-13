@@ -21,32 +21,32 @@ module.exports = class extends Generator {
 
         this.fs.copy(
             this.templatePath('src'),
-            this.destinationPath('src', folderName),
+            this.destinationPath('', projectName),
         );
 
         const filesToCopy = [
             {
-                destination: 'package.json',
                 source: 'package.json',
+                destination: 'package.json',
             },
             {
-                destination: 'tsconfig.json',
                 source: 'tsconfig.json',
+                destination: 'tsconfig.json',
             },
             {
-                destination: '_editorconfig',
-                source: '.editorconfig',
+                source: '_editorconfig',
+                destination: '.editorconfzig',
             },
             {
-                destination: '_gitignore',
-                source: '.gitignore',
+                source: '_gitignore',
+                destination: '.gitignore',
             }
             ];
 
         filesToCopy.forEach(({destination, source}) => {
             this.fs.copy(
                 this.templatePath(source),
-                this.destinationPath(destination, projectName),
+                this.destinationPath('', `${projectName}/${destination}`),
             );
         });
     }
