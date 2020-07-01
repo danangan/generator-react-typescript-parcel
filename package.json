@@ -1,14 +1,11 @@
 {
   "name": "generator-react-typescript-parcel",
-  "version": "0.1.0",
-  "description": "Generator for React with Tyescript and bundled with Parcel",
+  "version": "0.1.1",
+  "description": "Generator for React with Typescript and bundled with Parcel",
   "files": [
     "generators"
   ],
   "keywords": ["yeoman-generator"],
-  "dependencies": {
-      "yeoman-generator": "^2.0.1"
-  },
   "repository": "git@github.com:danangan/generator-react-typescript-parcel.git",
   "author": "Danang Nur <danang.arbansa@gmail.com>",
   "license": "MIT"
