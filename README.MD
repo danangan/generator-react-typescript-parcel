@@ -1,17 +1,14 @@
-# React Typescript Generator
+# React Typescript Yeoman Generator
 
 ## About
-Scaffold your frontend project quickly using this generator.
+Often times, configuring react project would take a lot of times and it is very frustrating to set up all the build system and other configuration like tests config properly.
 
-Stack:
-- React
-- Typescript
-- SASS
-- Styling with CSS module
-- React Testing Library
-- Jest
+This project is to help developer to be able to
+scaffold frontend project quickly using [yeoman](https://yeoman.io/) generator.
 
-## How to scaffold your project:
+## How to
+
+### Scaffold Your Project:
 - Install Yeoman globally
 
 `
@@ -22,3 +19,21 @@ npm install yo -g
 
 `yo react-typescript-parcel`
 
+
+### Running Development Mode
+`yarn start`
+
+### Running the Test
+`yarn test`
+
+### Building for Production
+`yarn build`
+
+## Stack
+- React
+- Typescript
+- SASS
+- CSS module
+- React Testing Library
+- Jest
+- Parcel
