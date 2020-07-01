@@ -1,6 +1,6 @@
 {
   "name": "generator-react-typescript-parcel",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Generator for React with Tyescript and bundled with Parcel",
   "files": [
     "generators"
