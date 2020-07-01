@@ -22,5 +22,6 @@ circle.yml
 setup.sh
 Gruntfile.js
 tslint.json
+yarn.lock
 
 npm-debug.log
