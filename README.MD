@@ -1,12 +1,15 @@
-# React + Typescript with Parcel
+# React Typescript Generator
 
 ## About
-Scaffold your project quickly using this generator.
+Scaffold your frontend project quickly using this generator.
 
-Features:
+Stack:
 - React
 - Typescript
-- SCSS module
+- SASS
+- Styling with CSS module
+- React Testing Library
+- Jest
 
 ## How to scaffold your project:
 - Install Yeoman globally
