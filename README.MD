@@ -12,7 +12,12 @@ scaffold frontend project quickly using [yeoman](https://yeoman.io/) generator.
 - Install Yeoman globally
 
 `
-npm install yo -g
+npm install -g yo
+`
+- Install the generator in your machine
+
+`
+npm install -g generator-react-typescript-parcel
 `
 
 - Scaffold your project
